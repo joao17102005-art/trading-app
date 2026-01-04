@@ -1,6 +1,3 @@
-services:
-  - type: web
-    name: trading-bot
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn app:app
+flask
+gunicorn
+requests
